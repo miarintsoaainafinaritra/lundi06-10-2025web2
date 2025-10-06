@@ -10,7 +10,7 @@ function App() {
     const [results, setResults] = useState(null);
     const [loading, setLoading] = useState(true);
     const [submitting, setSubmitting] = useState(false);
-    const [feedback, setFeedback] = useState({}); // { [questionId]: true|false }
+    const [feedback, setFeedback] = useState({});
 
     
     useEffect(() => {
