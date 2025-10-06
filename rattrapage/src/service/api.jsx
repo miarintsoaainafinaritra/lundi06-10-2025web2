@@ -31,7 +31,6 @@ export const api = {
         return await response.json();
     },
 
-    // Créer une nouvelle question
     async createQuestion({ question, options, correctAnswer }) {
         const response = await fetch(`${API_BASE}/questions`, {
             method: 'POST',
